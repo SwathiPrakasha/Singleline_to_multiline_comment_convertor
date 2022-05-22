@@ -46,7 +46,7 @@
              // test for proper opening of output file 
              if(!outFile.is_open())
               {
-                 cerr<<"Can't open output file: "<<outFile;
+                 cerr<<"Can't open output file: "<<a4_out<<endl;
                  return FAIL;
                }
 
